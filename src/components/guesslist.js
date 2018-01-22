@@ -5,7 +5,7 @@ import GuessNumber from './guessnumber';
 export default function GuessList() {
   return (
     <ul id="guessList" className="guessBox clearfix">
-    <GuessNumber />
+    <GuessNumber numbers={[1, 3, 27]} />
     </ul> 
   );
 }

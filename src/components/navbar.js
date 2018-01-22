@@ -1,15 +1,11 @@
 import React from 'react';
+import NavItem from './navBarItem';
 
 export default function NavBar() {
   return (
     <nav className="navbar">
-      <ul className="navbar-list">
-        <li className="navbar-item">
-          <a className="what" href="#">What?</a>
-        </li>
-        <li className="navbar-item">
-          <a className="newgame" href="#">New Game</a>
-        </li>
+      <ul className="navbar-list clearfix">
+       < NavItem items={["what?", "+ new game"]}/>
       </ul>
     </nav> 
   );

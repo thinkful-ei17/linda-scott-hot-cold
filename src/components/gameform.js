@@ -9,4 +9,4 @@ export default function GameForm() {
   );
 }
 
-//style="opacity: 1;"
+// style={opacity: 1;}
